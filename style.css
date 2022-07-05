@@ -10,13 +10,16 @@ h1{
 .orange{
     color: orangered;
 } 
-section{
+.flex-container{
     display:flex;
+    margin-bottom:150px;
 }
 .half-width{ 
     width: 50%;
     padding-left:8%;
     padding-top: 2%;
+    text-align: justify;
+    
 }
 .half-width img{
     width:80%;
@@ -29,6 +32,7 @@ section{
     border-radius: 10px;
     background-image: linear-gradient(#2ecc71, #3498db);
     font-weight: 600;
+    
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -44,3 +48,31 @@ section{
     padding-right: 20%;
     text-align: justify;
 }
+.auto{
+    display: flex;
+}
+.exprience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px #2c3e50;
+    padding: 2%;
+    border-radius: 20px;
+
+}
+.exprience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 50px;
+}
+#exp{
+    margin-left: 78px;
+    font-size: 70px;
+    
+}
+p{
+    text-align: justify;
+}
+  
+  
