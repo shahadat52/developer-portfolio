@@ -33,4 +33,14 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+.bottom-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.para{
+    padding-right: 20%;
+    text-align: justify;
 }
